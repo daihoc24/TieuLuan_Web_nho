@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Admin Dashboard</title>
+    <link rel="stylesheet" href="../css/userAdmin.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="admin-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <ul class="menu">
+                <li>
+                    <a href="productAdmin.html"><i class="fas fa-box"></i> Products</a>
+                    <a href="userAdmin.html"><i class="fas fa-user"></i> Users</a>
+                    <a href="orderAdmin.html"><i class="fas fa-clipboard-list"></i> Orders</a>
+
+                </li>
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="header">
+                <h2>Danh sách người dùng</h2>
+                <div class="header-actions">
+                    <button id="home-button">Trang chủ</button>
+                    <button id="add-user-button">Thêm người dùng</button>
+                </div>
+            </header>
+
+            <section class="content-body">
+                <table id="user-table" class="user-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Full Name</th>
+                            <th>Email</th>
+                            <th>Địa chỉ</th>
+                            <th>Số điện thoại</th>
+                            <th>Ngày sinh</th>
+                            <th>Role</th>
+                            <th>Hành động</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Data will be added dynamically via JavaScript -->
+                    </tbody>
+                </table>
+
+                <!-- Pagination Section -->
+                <div id="pagination" class="pagination">
+                    <!-- Pagination buttons will be added dynamically via JavaScript -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="../js/userAdmin.js"></script>
+    <script src="../adminGuard.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chi tiết sản phẩm</title>
+  <link rel="stylesheet" href="./../Header/header.css">
+  <link rel="stylesheet" href="./../Footer/footer.css">
+  <link rel="stylesheet" href="../css/detail.css">
+</head>
+
+<body>
+  <div id="header"></div>
+
+  <div style="padding-top: 30px;">
+    <div>
+      <div class="path flex items-center">
+        <span class="mx-2">🏠</span>
+        <span style="font-weight: 400;">Home / Shop / Detail</span>
+      </div>
+
+      <div class="px-10 py-5">
+        <div class="detail_container mx-auto py-10 product-details flex justify-center" style="background: #fff;">
+          <!-- Product Image -->
+          <div class="product_img">
+            <img id="product-image" src="" />
+          </div>
+
+          <!-- Product Details -->
+          <div style="width: 30%;">
+            <p class="mb-2">
+              <span id="product-name" class="product-name"></span>
+            </p>
+            <div class="py-3" style="padding-bottom: 30px;">
+              <span id="product-price" class="product-price"></span>
+            </div>
+            <div class="my-3" style="padding: 10px; background: #f8f8f8; border-radius: 10px; margin-bottom: 30px;">
+              <p
+                style="padding: 5px 10px; font-weight: 500; margin: 0; background: red; color: white; font-weight: 600; border-radius: 5px;">
+                Thân chúc quý khách dùng ngon miệng
+              </p>
+              <ul class="promotion_box"
+                style="padding: 10px; background: #fff; margin-top: 10px; list-style-type: disc;">
+                <li>Freeship với đơn hàng 5 phần trở lên</li>
+                <li>Tặng kèm trái cây tráng miệng mỗi ngày</li>
+                <li>Cuối tuần tặng kèm nước uống</li>
+              </ul>
+            </div>
+
+            <!-- Add to Cart -->
+            <div class="flex items-center pt-3" style="display: flex;
+            align-items: center;
+            padding-top: 20px;">
+              <div class="flex" style="margin-right: 20px; display: flex;
+  margin-right: 20px;">
+                <button class="decrease" onclick="decreaseAmount()" style=" padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #fff;
+  transition: background-color 0.3s ease;">-</button>
+                <span id="amount" class="amount">1</span>
+                <button class="increase" onclick="increaseAmount()" style=" padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #fff;
+  transition: background-color 0.3s ease;">+</button>
+              </div>
+              <button class="addToCart" onclick="addToCart()">Thêm vào giỏ hàng</button>
+            </div>
+
+            <!-- Buy Now -->
+            <div>
+              <button class="buyNow" onclick="buyNow()">Mua ngay</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="comment">
+      <h2 class="text-2xl">Hỏi đáp - Bình luận</h2>
+      <div id="comments-section" style="width: 60%; margin-left: 50px;"></div>
+      <div class="add-comment">
+        <textarea id="new-comment" placeholder="Viết bình luận..."></textarea>
+        <button>Thêm bình luận</button>
+      </div>
+    </div>
+
+    <div id="footer"></div>
+
+    <script src="../js/detail.js"></script>
+    <script src="../script.js"></script>
+    <script src="../authGuard.js"></script>
+
+</body>
+
+</html>

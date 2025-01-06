@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách sản phẩm</title>
+    <link rel="stylesheet" href="./../Header/header.css">
+    <link rel="stylesheet" href="./../Footer/footer.css">
+    <link rel="stylesheet" href="../css/product.css">
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <!-- Banner -->
+    <div id="app">
+        <div class="banner">
+            <img src="/img/image.png" alt="Banner" />
+        </div>
+        <div class="container">
+            <header>
+                <h1>Danh sách sản phẩm</h1>
+            </header>
+            <div class="filters">
+                <!-- Dropdown chọn loại sản phẩm -->
+                <select id="type-filter">
+                    <option value="">Tất cả</option>
+                    <option value="Combo">Combo</option>
+                    <option value="Cơm">Cơm</option>
+                    <option value="Mì">Mì</option>
+                    <option value="Miến">Miến</option>
+                    <option value="Phá lấu">Phá lấu</option>
+                    <option value="Nước giải khát">Nước giải khát</option>
+                    <option value="Các món khác">Các món khác</option>
+                </select>
+
+                <!-- Thanh tìm kiếm -->
+                <input type="text" id="search" placeholder="Tìm kiếm theo tên món ăn" />
+            </div>
+            <div class="product-list" id="product-list">
+                <!-- Sản phẩm sẽ được render tại đây -->
+            </div>
+            <div id="pagination" class="pagination">
+                <button id="prev-page">Trước</button>
+                <span id="page-info">Trang 1</span>
+                <button id="next-page">Sau</button>
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+
+    <script src="../script.js"></script>
+    <script src="../js/product.js"></script>
+    <script src="../authGuard.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+[
+  {
+    "comment_id": 3,
+    "user_id": 1,
+    "product_id": 1,
+    "user_fullname": "Phan Ngọc Tài",
+    "content": "Sản phẩm rất tốt!",
+    "created_at": "2024-11-27T08:31:22.000Z"
+  },
+  {
+    "comment_id": 5,
+    "user_id": 2,
+    "product_id": 2,
+    "user_fullname": "Nguyễn Văn An",
+    "content": "Ngonvl",
+    "created_at": "2024-11-27T08:53:18.000Z"
+  },
+  {
+    "user_id": 1,
+    "product_id": 1,
+    "user_fullname": "Người dùng mới",
+    "content": "a",
+    "created_at": "2024-12-07T10:00:32.386Z",
+    "comment_id": 1
+  },
+  {
+    "user_id": 1,
+    "product_id": 1,
+    "user_fullname": "Người dùng mới",
+    "content": "a",
+    "created_at": "2024-12-07T10:00:53.929Z",
+    "comment_id": 2
+  },
+  {
+    "user_id": 1,
+    "product_id": 2,
+    "user_fullname": "Người dùng mới",
+    "content": "a",
+    "created_at": "2024-12-08T03:34:10.391Z",
+    "comment_id": 3
+  },
+  {
+    "user_id": 1,
+    "product_id": 3,
+    "user_fullname": "Người dùng mới",
+    "content": "ngon",
+    "created_at": "2024-12-08T06:06:48.563Z",
+    "comment_id": 4
+  },
+  {
+    "user_id": 12,
+    "product_id": 1,
+    "user_fullname": "Admin",
+    "content": "ngon",
+    "created_at": "2024-12-11T10:27:32.926Z",
+    "comment_id": 5
+  },
+  {
+    "user_id": 19,
+    "product_id": 2,
+    "user_fullname": "Ti",
+    "content": "ngon",
+    "created_at": "2024-12-11T11:18:07.280Z",
+    "comment_id": 6
+  },
+  {
+    "user_id": 20,
+    "product_id": 1,
+    "user_fullname": "Quý",
+    "content": "ngon",
+    "created_at": "2024-12-17T14:06:40.709Z",
+    "comment_id": 7
+  }
+]

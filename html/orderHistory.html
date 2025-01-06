@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lịch sử đơn hàng</title>
+    <link rel="stylesheet" href="./../Header/header.css">
+    <link rel="stylesheet" href="./../Footer/footer.css">
+    <link rel="stylesheet" href="../css/orderHistory.css">
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <div class="orderHistoryContainer">
+        <h2>Lịch sử đơn hàng</h2>
+        <table class="orderTable" id="orderTable">
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Trạng thái</th>
+                    <th>Phí vận chuyển</th>
+                    <th>Thời gian</th>
+                    <th>Tổng tiền</th>
+                    <th>Chi tiết</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Các đơn hàng sẽ được thêm vào đây thông qua JavaScript -->
+            </tbody>
+        </table>
+    </div>
+    <div id="footer"></div>
+   
+    <script src="../script.js"></script>
+    <script src="../js/orderHistory.js"></script>
+    <script src="../authGuard.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,229 @@
+/* Reset basic margin/padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Layout container */
+body,
+html {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+}
+
+/* Admin Container */
+.admin-container {
+    display: flex;
+    height: 100vh;
+    /* Chiều cao full màn hình */
+    background-color: #f4f7fc;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #001529;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    box-shadow: 2px 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar .menu {
+    list-style: none;
+    padding-left: 0;
+}
+
+.sidebar .menu li {
+    margin-bottom: 20px;
+}
+
+.sidebar .menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.sidebar .menu li a i {
+    margin-right: 10px;
+}
+
+.sidebar .menu li a:hover {
+    background-color: #1890ff;
+}
+
+.sidebar .menu li a.active {
+    background-color: #1890ff;
+    font-weight: bold;
+}
+
+/* Main content */
+.main-content {
+    flex: 1;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    /* Cho phép cuộn dọc nếu nội dung dài */
+    height: 100%;
+    /* Đảm bảo chiều cao chiếm hết chiều cao còn lại */
+}
+
+/* Header */
+.header {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 10px;
+}
+
+/* Table Styles */
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.user-table th,
+.user-table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 14px;
+    color: #555;
+}
+
+.user-table th {
+    background-color: #fafafa;
+    font-size: 16px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.user-table td button {
+    background-color: #1890ff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.user-table td button:hover {
+    background-color: #40a9ff;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .admin-container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+    }
+
+    .main-content {
+        padding: 20px;
+    }
+}
+
+/* Pagination Styles */
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+    gap: 6px;
+}
+
+.pagination button {
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #1890ff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+    background-color: #40a9ff;
+}
+
+.pagination button.active {
+    background-color: #096dd9;
+    font-weight: bold;
+}
+
+.pagination button:disabled {
+    background-color: #d9d9d9;
+    cursor: not-allowed;
+    color: #a0a0a0;
+}
+
+/* Optional: Small styling tweaks for mobile */
+@media (max-width: 768px) {
+    .pagination {
+        justify-content: center;
+    }
+
+    .pagination button {
+        font-size: 12px;
+        padding: 4px 10px;
+    }
+}
+
+.header-actions {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+}
+
+.header-actions button {
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #1890ff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.header-actions button:hover {
+    background-color: #40a9ff;
+}
+
+.delete-btn {
+    background-color: red !important;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.delete-btn:hover {
+    background-color: darkred !important;
+}

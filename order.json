@@ -1,0 +1,42 @@
+[
+  {
+    "order_id": 1,
+    "totalAmount": 0,
+    "status": "Đã thanh toán",
+    "phiShip": 15000,
+    "thoiGian": "23 phút",
+    "user_id": 1,
+    "address": "36d-đường số 10-tổ 14-khu phố 3",
+    "items": [
+      {
+        "products_id": 1,
+        "products_name": "C01 Mì tươi Gà xé",
+        "products_image": "//product.hstatic.net/200000892317/product/c01_c02_c21_c22_80bfcc18d1be43468950e56b0f517853_large.jpg",
+        "products_price": 39000,
+        "quantity": 1
+      }
+    ],
+    "created_at": "2024-12-08T08:03:22.619Z"
+  },
+  {
+    "order_id": 2,
+    "totalAmount": 0,
+    "status": "Đang xử lí",
+    "phiShip": 15000,
+    "thoiGian": "23 phút",
+    "user_id": 12,
+    "address": "36d-đường số 10-tổ 14-khu phố 3 - phườn Linh Xuân",
+    "items": [
+      {
+        "products_id": 1,
+        "products_name": "C01 Mì tươi Gà xé",
+        "products_image": "//product.hstatic.net/200000892317/product/c01_c02_c21_c22_80bfcc18d1be43468950e56b0f517853_large.jpg",
+        "products_price": 39000,
+        "quantity": 1
+      }
+    ],
+    "created_at": "2024-12-11T10:38:05.544Z",
+    "order_address": "36d-đường số 10-tổ 14-khu phố 3 - phườn Linh Xuân",
+    "order_status": "Đã thanh toán"
+  }
+]

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Orders</title>
+    <link rel="stylesheet" href="../css/orderAdmin.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="admin-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <ul class="menu">
+                <li>
+                    <a href="productAdmin.html"><i class="fas fa-box"></i> Products</a>
+                    <a href="userAdmin.html"><i class="fas fa-user"></i> Users</a>
+                    <a href="orderAdmin.html" class="active"><i class="fas fa-box"></i> Orders</a>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="header">
+                <h2>Danh sách đơn hàng</h2>
+                <div class="header-actions">
+                    <button id="home-button">Trang chủ</button>
+                </div>
+            </header>
+
+            <section class="content-body">
+                <table id="order-table" class="order-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Trạng thái</th>
+                            <th>Phí ship</th>
+                            <th>Tổng tiền</th>
+                            <th>Thời gian</th>
+                            <th>User_idid</th>
+                            <th>Sản phẩm</th>
+                            <th>Địa chỉ</th>
+                            <th>Hành động</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Data will be added dynamically via JavaScript -->
+                    </tbody>
+                </table>
+
+                <!-- Pagination Section -->
+                <div id="pagination" class="pagination">
+                    <!-- Pagination buttons will be added dynamically via JavaScript -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="../js/orderAdmin.js"></script>
+    <script src="../adminGuard.js"></script>
+
+</body>
+
+</html>

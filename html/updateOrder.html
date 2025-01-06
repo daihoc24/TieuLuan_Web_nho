@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cập nhật Đơn Hàng</title>
+    <link rel="stylesheet" href="../css/updateOrder.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3>Cập nhật Đơn Hàng</h3>
+        <form id="updateOrderForm">
+            <div class="form-group">
+                <label for="orderAddress">Địa chỉ</label>
+                <input type="text" id="orderAddress" name="orderAddress" />
+                <span id="addressError"></span>
+            </div>
+            <div class="form-group">
+                <label for="orderStatus">Trạng thái</label>
+                <select id="orderStatus" name="orderStatus">
+                    <option value="">Chọn trạng thái</option>
+                    <option value="Đã thanh toán">Đã thanh toán</option>
+                    <option value="Đang xử lí">Đang xử lí</option>
+                    <option value="Đang giao hàng">Đang giao hàng</option>
+                </select>
+                <span id="statusError"></span>
+            </div>
+            <div class="form-group">
+                <button type="button" id="updateButton" class="btn">Cập nhật đơn hàng</button>
+            </div>
+            <!-- Nút Trở về -->
+            <div class="back">
+                <a href="orderAdmin.html" id="backLink">Trở về</a>
+            </div>
+        </form>
+    </div>
+    <script src="../js/updateOrder.js"></script>
+    <script src="../adminGuard.js"></script>
+
+</body>
+
+</html>

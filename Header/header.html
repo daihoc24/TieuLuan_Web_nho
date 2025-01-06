@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="header.css" />
+  <title>Header with Navbar</title>
+</head>
+
+<body>
+  <div id="header" class="header">
+    <div class="header_container">
+      <!-- Logo -->
+      <div class="logo">
+        <a href="#">
+          <img src="/img/logo.png" alt="logo" />
+        </a>
+      </div>
+
+      <!-- Navbar -->
+      <nav class="navb">
+        <ul class="header_navbar">
+          <li>
+            <a href="/html/home.html">
+              <span>Trang chủ</span>
+              <i class="fa fa-chevron-down"></i>
+            </a>
+          </li>
+          <li>
+            <a href="/html/productAdmin.html">
+              <span>Admin</span>
+              <i class="fa fa-chevron-down"></i>
+            </a>
+          </li>
+          <li>
+            <a href="/html/product.html">
+              <span>Thực đơn</span>
+              <i class="fa fa-chevron-down"></i>
+            </a>
+          </li>
+          <li>
+            <a href="/html/orderHistory.html">
+              <span>Lịch sử mua hàng</span>
+              <i class="fa fa-chevron-down"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span>Liên hệ</span>
+              <i class="fa fa-chevron-down"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Contact -->
+      <div class="contact">
+        <i class="fas fa-phone-volume"></i>
+        <div>
+          <p>Giao hàng tận nơi</p>
+          <p class="phone-number">0902.504.708</p>
+        </div>
+      </div>
+
+      <!-- User & Cart -->
+      <div class="user-cart">
+        <i class="user-icon fas fa-user-circle"></i>
+        <ul class="account_option" id="account_option">
+          <li id="logout" style="display: none;"><a href="#" class="logout">Đăng xuất</a></li>
+          <li id="login"><a href="/html/login.html">Đăng nhập</a></li>
+          <li><a href="/html/account.html">Tài khoản</a></li>
+        </ul>
+        <a href="cart.html" class="cart-link">
+          <i class="fas fa-shopping-cart cart-icon"></i>
+          <span class="cart-count">0</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

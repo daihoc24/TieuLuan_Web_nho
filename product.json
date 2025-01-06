@@ -1,0 +1,818 @@
+[
+  {
+    "products_id": 1,
+    "products_name": "C01 Mì tươi Gà xé",
+    "products_image": "//product.hstatic.net/200000892317/product/c01_c02_c21_c22_80bfcc18d1be43468950e56b0f517853_large.jpg",
+    "products_price": 39000,
+    "products_type": "Mì",
+    "quantitySold": 104
+  },
+  {
+    "products_id": 2,
+    "products_name": "C02 Mì tươi Đùi gà xé",
+    "products_image": "//product.hstatic.net/200000892317/product/c01_c02_c21_c22_467b878e8a174f53996af406f7a278c1_large.jpg",
+    "products_price": 69000,
+    "products_type": "Mì",
+    "quantitySold": 103
+  },
+  {
+    "products_id": 3,
+    "products_name": "C03 Mì tươi Cá",
+    "products_image": "//product.hstatic.net/200000892317/product/c03_c23_ec299dd19c67488094dfb4e1383bda1d_large.jpg",
+    "products_price": 59000,
+    "products_type": "Mì",
+    "quantitySold": 106
+  },
+  {
+    "products_id": 4,
+    "products_name": "C04 Mì tươi Xá xíu",
+    "products_image": "//product.hstatic.net/200000892317/product/c04_c24_80c432275589428dbd9f7ac4c71c6195_large.jpg",
+    "products_price": 65000,
+    "products_type": "Mì",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 5,
+    "products_name": "C05 Mì tươi Bò viên",
+    "products_image": "//product.hstatic.net/200000892317/product/c05_c25_4c246959518640d2aa6d86740395ecf1_large.jpg",
+    "products_price": 65000,
+    "products_type": "Mì",
+    "quantitySold": 104
+  },
+  {
+    "products_id": 6,
+    "products_name": "C06 Mì tươi Hoành thánh",
+    "products_image": "//product.hstatic.net/200000892317/product/c06_c26_b085ba0263d749cb8b44e6c1336811e3_large.jpg",
+    "products_price": 69000,
+    "products_type": "Mì",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 7,
+    "products_name": "C07 Mì tươi Phá lấu",
+    "products_image": "//product.hstatic.net/200000892317/product/c07_c27_760c4f08ab074e1a9d504948b365d478_large.jpg",
+    "products_price": 69000,
+    "products_type": "Mì",
+    "quantitySold": 104
+  },
+  {
+    "products_id": 8,
+    "products_name": "C08 Mì tươi Tôm",
+    "products_image": "//product.hstatic.net/200000892317/product/c08_c28_acd0990a37d64ed49c552be898e65c6f_large.jpg",
+    "products_price": 69000,
+    "products_type": "Mì",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 9,
+    "products_name": "C09 Mì tươi Bào ngư đặc biệt",
+    "products_image": "//product.hstatic.net/200000892317/product/c09_c29_c95807f9d0554bba81e020a6dc9974a3_large.jpg",
+    "products_price": 149000,
+    "products_type": "Mì",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 10,
+    "products_name": "C10 Mì tươi Gà xé Xá xíu",
+    "products_image": "//product.hstatic.net/200000892317/product/c10_c11_c30_c31_15bfea7286a949eb80804791aa7c663e_large.jpg",
+    "products_price": 79000,
+    "products_type": "Mì",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 11,
+    "products_name": "C11 Mì tươi Đùi gà xé Xá xíu",
+    "products_image": "//product.hstatic.net/200000892317/product/c10_c11_c30_c31_ac30d941c3674e0a9fee4554f8825d34_large.jpg",
+    "products_price": 89000,
+    "products_type": "Mì",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 12,
+    "products_name": "C12 Mì tươi Gà xé Xá xíu sốt XO",
+    "products_image": "//product.hstatic.net/200000892317/product/c12_c13_bd3d1a062cb045f096a147389d0886d5_large.jpg",
+    "products_price": 89000,
+    "products_type": "Mì",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 13,
+    "products_name": "C13 Mì tươi Đùi gà Xá xíu sốt XO",
+    "products_image": "//product.hstatic.net/200000892317/product/c12_c13_5997d5cf801d4c82bbdc6b3c0c5e57cb_large.jpg",
+    "products_price": 99000,
+    "products_type": "Mì",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 14,
+    "products_name": "C14 Mì tươi Gà xé Bò viên",
+    "products_image": "//product.hstatic.net/200000892317/product/c14_c15_c32_c33_6120492e442341b6b45ff4be109983b9_large.jpg",
+    "products_price": 75000,
+    "products_type": "Mì",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 15,
+    "products_name": "C15 Mì tươi Đùi gà Bò viên",
+    "products_image": "//product.hstatic.net/200000892317/product/c14_c15_c32_c33_03189a53c0bb46a5b7bb3c9869956753_large.jpg",
+    "products_price": 85000,
+    "products_type": "Mì",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 16,
+    "products_name": "C16 Mì tươi Gà xé Hoành thánh",
+    "products_image": "//product.hstatic.net/200000892317/product/c16_c17_c34_c35_34f1d883815e438682b47fb607d94b01_large.jpg",
+    "products_price": 75000,
+    "products_type": "Mì",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 17,
+    "products_name": "C17 Mì tươi Đùi gà Hoành thánh",
+    "products_image": "//product.hstatic.net/200000892317/product/c16_c17_c34_c35_e2bc3371ca0348f59bf129bed36b1b19_large.jpg",
+    "products_price": 85000,
+    "products_type": "Mì",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 18,
+    "products_name": "C18 Mì tươi Gà xé Phá lấu",
+    "products_image": "//product.hstatic.net/200000892317/product/c18_c19_9a7670fac3c84b109da9aa0a6a8f82f0_large.jpg",
+    "products_price": 79000,
+    "products_type": "Mì",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 19,
+    "products_name": "C19 Mì tươi Đùi gà Phá lấu",
+    "products_image": "//product.hstatic.net/200000892317/product/c18_c19_fdceff6374d5426bb0bcf4b4d6352865_large.jpg",
+    "products_price": 89000,
+    "products_type": "Mì",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 20,
+    "products_name": "C20 Mì tươi Tôm Hoành thánh",
+    "products_image": "//product.hstatic.net/200000892317/product/c20_c38_905eb7f7b22844c39577e0f5d7056929_large.jpg",
+    "products_price": 75000,
+    "products_type": "Mì",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 21,
+    "products_name": "C39 Thịt gà xé",
+    "products_image": "//product.hstatic.net/200000892317/product/c39_c40_92f330cd03fa42a7bffec9f1bae4f13f_large.jpg",
+    "products_price": 55000,
+    "products_type": "Các món khác",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 22,
+    "products_name": "C40 Đùi gà xé",
+    "products_image": "//product.hstatic.net/200000892317/product/c39_c40_601360f2940340da8cc569cb45acad2a_large.jpg",
+    "products_price": 65000,
+    "products_type": "Các món khác",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 23,
+    "products_name": "C41 Cá",
+    "products_image": "//product.hstatic.net/200000892317/product/c41_9f070c8e4cc64982b621111e31e8ef9d_large.jpg",
+    "products_price": 55000,
+    "products_type": "Các món khác",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 24,
+    "products_name": "C42 Xá xíu",
+    "products_image": "//product.hstatic.net/200000892317/product/c42_4f0c5ab390794f01b577f537b764fcbf_large.jpg",
+    "products_price": 55000,
+    "products_type": "Các món khác",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 25,
+    "products_name": "C43 Bò viên",
+    "products_image": "//product.hstatic.net/200000892317/product/c43_b864c2ad05c04f80ab651c2e3d7f7b8c_large.jpg",
+    "products_price": 55000,
+    "products_type": "Các món khác",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 26,
+    "products_name": "C44 Phá lấu",
+    "products_image": "//product.hstatic.net/200000892317/product/c44_6d1d8751efb749fdb7b6798fa1976509_large.jpg",
+    "products_price": 60000,
+    "products_type": "Phá lấu",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 27,
+    "products_name": "C45 Hoành thánh",
+    "products_image": "//product.hstatic.net/200000892317/product/c45_c55e8beda63b4fbf912edf1d68b15c34_large.jpg",
+    "products_price": 60000,
+    "products_type": "Các món khác",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 28,
+    "products_name": "C46 Tôm",
+    "products_image": "//product.hstatic.net/200000892317/product/c46_676d098e0e5049ccaa95786281960495_large.jpg",
+    "products_price": 60000,
+    "products_type": "Các món khác",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 29,
+    "products_name": "C47 Bào ngư",
+    "products_image": "//product.hstatic.net/200000892317/product/c47_0d11866adc85475aadfc1deb0e26b263_large.jpg",
+    "products_price": 99000,
+    "products_type": "Các món khác",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 30,
+    "products_name": "C48 Mì thêm",
+    "products_image": "//product.hstatic.net/200000892317/product/c48_8696e6afbaee440c9cc4ce757ab6036c_large.jpg",
+    "products_price": 12000,
+    "products_type": "Mì",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 31,
+    "products_name": "C50 Café Phin Đen",
+    "products_image": "//product.hstatic.net/200000892317/product/c50_e3f6347a084b4077b726ae423ba205ee_large.jpg",
+    "products_price": 20000,
+    "products_type": "Nước giải khát",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 32,
+    "products_name": "C51 Café Phin sữa",
+    "products_image": "//product.hstatic.net/200000892317/product/c51_1bb86d9bd6dc4d109013a58b9bb34212_large.jpg",
+    "products_price": 25000,
+    "products_type": "Nước giải khát",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 33,
+    "products_name": "C52 Coca",
+    "products_image": "//product.hstatic.net/200000892317/product/c52_8d31e6a6ea5d4fc196dc02368333e211_large.jpg",
+    "products_price": 15000,
+    "products_type": "Nước giải khát",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 34,
+    "products_name": "C53 7up",
+    "products_image": "//product.hstatic.net/200000892317/product/c53_dfe75443efeb45bbba20ba818c27b939_large.jpg",
+    "products_price": 15000,
+    "products_type": "Nước giải khát",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 35,
+    "products_name": "C54 Dasani",
+    "products_image": "//product.hstatic.net/200000892317/product/c54_1780cd4781694cb4b4bbb5166c5fe95b_large.jpg",
+    "products_price": 10000,
+    "products_type": "Nước giải khát",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 36,
+    "products_name": "H01 Cơm Gà Hải Nam",
+    "products_image": "//product.hstatic.net/200000892317/product/h01_64a6f6854e94475782e4f4de9b7ac3b7_large.jpg",
+    "products_price": 39000,
+    "products_type": "Cơm",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 37,
+    "products_name": "H02 Cơm Xá xíu",
+    "products_image": "//product.hstatic.net/200000892317/product/h02_5d16cbe40cf24ea68f613381d40f9559_large.jpg",
+    "products_price": 59000,
+    "products_type": "Cơm",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 38,
+    "products_name": "H03 Cơm Phá lấu Thập Cẩm",
+    "products_image": "//product.hstatic.net/200000892317/product/h03_f3b17d9ca7f8470db3f6763af0665d8b_large.jpg",
+    "products_price": 69000,
+    "products_type": "Cơm",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 39,
+    "products_name": "H06 Cơm Đùi gà",
+    "products_image": "//product.hstatic.net/200000892317/product/h06_56d7332d67b645c198dca9d9679f703f_large.jpg",
+    "products_price": 69000,
+    "products_type": "Cơm",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 40,
+    "products_name": "H07 Cơm Gà xé nấm truffle",
+    "products_image": "//product.hstatic.net/200000892317/product/h07_e2f65fd306a94167af412dde88cc431d_large.jpg",
+    "products_price": 79000,
+    "products_type": "Cơm",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 41,
+    "products_name": "H13 Cơm Gà Trứng phá lấu",
+    "products_image": "//product.hstatic.net/200000892317/product/h13_h15_0b0499a7627b40a5bcfa1419bbb8d8e5_large.jpg",
+    "products_price": 65000,
+    "products_type": "Cơm",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 42,
+    "products_name": "H14 Cơm Xá xíu Trứng phá lấu",
+    "products_image": "//product.hstatic.net/200000892317/product/h14_39e1a5f7c5da436db89c5784af580590_large.jpg",
+    "products_price": 65000,
+    "products_type": "Cơm",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 43,
+    "products_name": "H15 Cơm Đùi gà Trứng phá lấu",
+    "products_image": "//product.hstatic.net/200000892317/product/h13_h15_521af86bc0114553973424334e95ed18_large.jpg",
+    "products_price": 75000,
+    "products_type": "Cơm",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 44,
+    "products_name": "H16 Cơm Phá lấu Thập cẩm Trứng",
+    "products_image": "//product.hstatic.net/200000892317/product/h16_2d633f7247bb48ffb66c1e9df4d668b5_large.jpg",
+    "products_price": 75000,
+    "products_type": "Cơm",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 45,
+    "products_name": "H23 Cơm Gà Xá xíu Cải HK",
+    "products_image": "//product.hstatic.net/200000892317/product/h23_h24_2a457d2fcc9347d9825acd58a58a59de_large.jpg",
+    "products_price": 69000,
+    "products_type": "Cơm",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 46,
+    "products_name": "H24 Cơm Đùi gà Xá xíu Cải HK",
+    "products_image": "//product.hstatic.net/200000892317/product/h23_h24_b7b53a6cc7d64fd69a58ca9a3290dd01_large.jpg",
+    "products_price": 79000,
+    "products_type": "Cơm",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 47,
+    "products_name": "H25 Cơm Gà Phá lấu Cải HK",
+    "products_image": "//product.hstatic.net/200000892317/product/h25_h26_3c04e61c8a1a4948b450f687077ad3d4_large.jpg",
+    "products_price": 79000,
+    "products_type": "Cơm",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 48,
+    "products_name": "H26 Cơm Đùi gà Phá lấu Cải HK",
+    "products_image": "//product.hstatic.net/200000892317/product/h25_h26_b8ae54494bb54182b72ed219f77b5380_large.jpg",
+    "products_price": 89000,
+    "products_type": "Cơm",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 49,
+    "products_name": "H27 Cơm chiên Singapore",
+    "products_image": "//product.hstatic.net/200000892317/product/h27_3d44b9ba0d5e49889854c645ad0f1fe9_large.jpg",
+    "products_price": 65000,
+    "products_type": "Cơm",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 50,
+    "products_name": "H28 Cơm chiên xanh gà xé",
+    "products_image": "//product.hstatic.net/200000892317/product/h28_0cf4a514e4db402aadb416d0ce52978f_large.jpg",
+    "products_price": 65000,
+    "products_type": "Cơm",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 51,
+    "products_name": "H29 Cơm chiên xanh gà xé nấm truffle",
+    "products_image": "//product.hstatic.net/200000892317/product/h29_d0fe74a9010944d9bb297265a1914f6a_large.jpg",
+    "products_price": 89000,
+    "products_type": "Cơm",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 52,
+    "products_name": "H30 Cơm chiên xanh Tôm",
+    "products_image": "//product.hstatic.net/200000892317/product/h30_75d08ab7ebdf4a15ae66a19d3a8eca78_large.jpg",
+    "products_price": 109000,
+    "products_type": "Cơm",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 53,
+    "products_name": "H31 Cơm chiên Tôm sốt XO",
+    "products_image": "//product.hstatic.net/200000892317/product/h31_8c2ea56ad682482eb7ba0a204acda018_large.jpg",
+    "products_price": 129000,
+    "products_type": "Cơm",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 54,
+    "products_name": "H32 Miến tay cầm Tôm",
+    "products_image": "//product.hstatic.net/200000892317/product/h32_9764b0b81f4a4d399c5641c70282e719_large.jpg",
+    "products_price": 109000,
+    "products_type": "Miến",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 55,
+    "products_name": "H33 Miến tay cầm Tôm sốt XO",
+    "products_image": "//product.hstatic.net/200000892317/product/h33_00d48be0354047969289be589621cbde_large.jpg",
+    "products_price": 129000,
+    "products_type": "Miến",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 56,
+    "products_name": "H34 Mì tươi Gà xé",
+    "products_image": "//product.hstatic.net/200000892317/product/h34_h39_67591a6bf44a43a99d476b95159732c0_large.jpg",
+    "products_price": 69000,
+    "products_type": "Mì",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 57,
+    "products_name": "H35 Mì tươi Gà xé Xá xíu",
+    "products_image": "//product.hstatic.net/200000892317/product/h35_h40_f3c33f9f4d5640c58d0a586866e5b6f3_large.jpg",
+    "products_price": 79000,
+    "products_type": "Mì",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 58,
+    "products_name": "H36 Mì tươi Gà xé Bò viên",
+    "products_image": "//product.hstatic.net/200000892317/product/h36_h41_fe5863fe80d241969e10fb259c768bf8_large.jpg",
+    "products_price": 79000,
+    "products_type": "Mì",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 59,
+    "products_name": "H37 Mì tươi Gà xé Hoành thánh",
+    "products_image": "//product.hstatic.net/200000892317/product/h37_h42_374951ed7a894f28960c14e403515591_large.jpg",
+    "products_price": 79000,
+    "products_type": "Mì",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 60,
+    "products_name": "H39 Mì tươi Đùi gà xé",
+    "products_image": "//product.hstatic.net/200000892317/product/h34_h39_f84fef4c0bd4465292945a9636085adb_large.jpg",
+    "products_price": 79000,
+    "products_type": "Mì",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 61,
+    "products_name": "H40 Mì tươi Đùi gà xé Xá xíu",
+    "products_image": "//product.hstatic.net/200000892317/product/h35_h40_eed5f8d14e814b42bc9adf21657bab30_large.jpg",
+    "products_price": 89000,
+    "products_type": "Mì",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 62,
+    "products_name": "H41 Mì tươi Đùi gà xé Bò viên",
+    "products_image": "//product.hstatic.net/200000892317/product/h36_h41_af1891bf941d438fbcc580838498a72e_large.jpg",
+    "products_price": 89000,
+    "products_type": "Mì",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 63,
+    "products_name": "H42 Mì tươi Đùi gà xé Hoành thánh",
+    "products_image": "//product.hstatic.net/200000892317/product/h37_h42_3e0ec472a875414ab0ddb413ef53f517_large.jpg",
+    "products_price": 89000,
+    "products_type": "Mì",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 64,
+    "products_name": "H44 Gà luộc nguyên con",
+    "products_image": "//product.hstatic.net/200000892317/product/h44_h45_bc681e1fea804bc2af8970bffae82f34_large.jpg",
+    "products_price": 399000,
+    "products_type": "Các món khác",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 65,
+    "products_name": "H45 Gà luộc nửa con",
+    "products_image": "//product.hstatic.net/200000892317/product/h44_h45_f8d305e0eff14ff092d32bca4c8063e8_large.jpg",
+    "products_price": 199000,
+    "products_type": "Các món khác",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 66,
+    "products_name": "H46 Đùi gà luộc góc tư",
+    "products_image": "//product.hstatic.net/200000892317/product/h46_fad683fe5a674df0b2107d2a51c87154_large.jpg",
+    "products_price": 99000,
+    "products_type": "Các món khác",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 67,
+    "products_name": "H47 Xá xíu (200gr)",
+    "products_image": "//product.hstatic.net/200000892317/product/h47_9da819aea5904dbeb68c96be8abd96b3_large.jpg",
+    "products_price": 99000,
+    "products_type": "Các món khác",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 68,
+    "products_name": "H48 Phá lấu thập cẩm (200gr)",
+    "products_image": "//product.hstatic.net/200000892317/product/h48_29aeeebb888141ac8c14153bcb38ef58_large.jpg",
+    "products_price": 109000,
+    "products_type": "Phá lấu",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 69,
+    "products_name": "H49 Cải Hongkong xào dầu hào",
+    "products_image": "//product.hstatic.net/200000892317/product/h49_bc751a6982564676b3b3378afb3f8f12_large.jpg",
+    "products_price": 39000,
+    "products_type": "Các món khác",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 70,
+    "products_name": "H50 Cải Hongkong xào tóp mỡ",
+    "products_image": "//product.hstatic.net/200000892317/product/h50_315430da2d7341dc9f09225c052e7e17_large.jpg",
+    "products_price": 39000,
+    "products_type": "Các món khác",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 71,
+    "products_name": "H51 Cải bó xôi xào dầu hào",
+    "products_image": "//product.hstatic.net/200000892317/product/h51_b503d0b691b3402c90853a16bb9d4998_large.jpg",
+    "products_price": 39000,
+    "products_type": "Các món khác",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 72,
+    "products_name": "H52 Cải bó xôi xào tóp mỡ",
+    "products_image": "//product.hstatic.net/200000892317/product/h52_a50770df79fe4505bff48a3cb00ffa21_large.jpg",
+    "products_price": 39000,
+    "products_type": "Các món khác",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 73,
+    "products_name": "H53 Canh rong biển",
+    "products_image": "//product.hstatic.net/200000892317/product/h53_45a0ace3ed604d32aba14d6bdacfbeb4_large.jpg",
+    "products_price": 19000,
+    "products_type": "Các món khác",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 74,
+    "products_name": "H54 Canh cải bó xôi",
+    "products_image": "//product.hstatic.net/200000892317/product/h54_3c0bf025deda467193435f6970e81d1c_large.jpg",
+    "products_price": 19000,
+    "products_type": "Các món khác",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 75,
+    "products_name": "H58 Canh cá trứng bắc thảo",
+    "products_image": "//product.hstatic.net/200000892317/product/h58_5f33359e95df4fbaa353039b591487d5_large.jpg",
+    "products_price": 49000,
+    "products_type": "Các món khác",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 76,
+    "products_name": "H59 Đùi gà",
+    "products_image": "//product.hstatic.net/200000892317/product/h59_65808760c6204aeeb37a033ac8b55f9f_large.jpg",
+    "products_price": 65000,
+    "products_type": "Các món khác",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 77,
+    "products_name": "H60 Gà luộc",
+    "products_image": "//product.hstatic.net/200000892317/product/h60_506bd9375cf348c4b5d0182373fe1c45_large.jpg",
+    "products_price": 55000,
+    "products_type": "Các món khác",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 78,
+    "products_name": "H61 Gà xé",
+    "products_image": "//product.hstatic.net/200000892317/product/h61_h62_b563439569944dfe9ef6e26d986472d8_large.jpg",
+    "products_price": 55000,
+    "products_type": "Các món khác",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 79,
+    "products_name": "H62 Đùi gà xé",
+    "products_image": "//product.hstatic.net/200000892317/product/h61_h62_1eb3bfd5da7c4097869bb9f6e00a7ca6_large.jpg",
+    "products_price": 65000,
+    "products_type": "Các món khác",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 80,
+    "products_name": "H63 Xá xíu",
+    "products_image": "//product.hstatic.net/200000892317/product/h63_09f8e437e35a4b739e348e5f313dec1f_large.jpg",
+    "products_price": 55000,
+    "products_type": "Các món khác",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 81,
+    "products_name": "H64 Phá lấu Thập cẩm",
+    "products_image": "//product.hstatic.net/200000892317/product/h64_988a7c2609354cea922e36345f4dd465_large.jpg",
+    "products_price": 60000,
+    "products_type": "Phá lấu",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 82,
+    "products_name": "H65 Phá lấu Bao tử",
+    "products_image": "//product.hstatic.net/200000892317/product/h65_4176eb2da80a424b9800310085a8a2b2_large.jpg",
+    "products_price": 70000,
+    "products_type": "Phá lấu",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 83,
+    "products_name": "H66 Phá lấu Tai heo",
+    "products_image": "//product.hstatic.net/200000892317/product/h66_ec94017647a544ceb90e178a9c9c3299_large.jpg",
+    "products_price": 55000,
+    "products_type": "Phá lấu",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 84,
+    "products_name": "H67 Trứng phá lấu (1/2)",
+    "products_image": "//product.hstatic.net/200000892317/product/h67_f79ac0ad0bd2474890d0fc833258f231_large.jpg",
+    "products_price": 5000,
+    "products_type": "Các món khác",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 85,
+    "products_name": "H68 Hoành thánh",
+    "products_image": "//product.hstatic.net/200000892317/product/haochi-hoanh-thanh_59e4faedddb54bc4a15a255f2167d2ea_large.jpg",
+    "products_price": 55000,
+    "products_type": "Các món khác",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 86,
+    "products_name": "H69 Bò viên",
+    "products_image": "//product.hstatic.net/200000892317/product/haochi-bo-vien_f488285dcf704790a31e2d5c2d88f4c3_large.jpg",
+    "products_price": 55000,
+    "products_type": "Các món khác",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 87,
+    "products_name": "H75 Café Phin đen",
+    "products_image": "//product.hstatic.net/200000892317/product/h75_110610db0e7148a3a7ab0902191edb56_large.jpg",
+    "products_price": 20000,
+    "products_type": "Nước giải khát",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 88,
+    "products_name": "H76 Café Phin sữa",
+    "products_image": "//product.hstatic.net/200000892317/product/h76_37c27ebaac6b44f09125aea64535bffa_large.jpg",
+    "products_price": 25000,
+    "products_type": "Nước giải khát",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 89,
+    "products_name": "H77 Coca",
+    "products_image": "//product.hstatic.net/200000892317/product/h77_70a825c9a8fd4a6996cc641627d5104d_large.jpg",
+    "products_price": 15000,
+    "products_type": "Nước giải khát",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 90,
+    "products_name": "H78 7up",
+    "products_image": "//product.hstatic.net/200000892317/product/h78_a445c53cf28141bcaf9e880cecfaab34_large.jpg",
+    "products_price": 15000,
+    "products_type": "Nước giải khát",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 91,
+    "products_name": "H79 Dasani",
+    "products_image": "//product.hstatic.net/200000892317/product/h79_b9433fe1500641f8a7dc747dec923556_large.jpg",
+    "products_price": 10000,
+    "products_type": "Nước giải khát",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 92,
+    "products_name": "H84 Cơm thêm",
+    "products_image": "//product.hstatic.net/200000892317/product/h68_e4cd7042d0524a11979d21d7ff57a2fe_large.jpg",
+    "products_price": 15000,
+    "products_type": "Cơm",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 93,
+    "products_name": "H85 Mì thêm",
+    "products_image": "//product.hstatic.net/200000892317/product/h69_6b3fab3ea62b49ca96ff3737b576f595_large.jpg",
+    "products_price": 12000,
+    "products_type": "Mì",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 94,
+    "products_name": "HC1 Combo Cơm Gà",
+    "products_image": "//product.hstatic.net/200000892317/product/hc1_26cf530699934c5884dd91f07492e75a_large.jpg",
+    "products_price": 69000,
+    "products_type": "Combo",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 95,
+    "products_name": "HC2 Combo Cơm Xá xíu",
+    "products_image": "//product.hstatic.net/200000892317/product/hc2_2c6bfe50924d4745a14440d512f83dcf_large.jpg",
+    "products_price": 69000,
+    "products_type": "Combo",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 96,
+    "products_name": "HC3 Combo Cơm gà & Canh hầm 1",
+    "products_image": "//product.hstatic.net/200000892317/product/hc3_7575c675f18441d99b8db71532c3fa41_large.jpg",
+    "products_price": 89000,
+    "products_type": "Combo",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 97,
+    "products_name": "HC4 Combo Cơm gà & Canh hầm 2",
+    "products_image": "//product.hstatic.net/200000892317/product/hc4_dbe40acd1176465cb3cb468a1ee9f0d3_large.jpg",
+    "products_price": 89000,
+    "products_type": "Combo",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 98,
+    "products_name": "HC5 Combo Cơm chiên Singapore",
+    "products_image": "//product.hstatic.net/200000892317/product/hc5_d0f748bffd9d48f5853697a79aeb26fe_large.jpg",
+    "products_price": 99000,
+    "products_type": "Combo",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 99,
+    "products_name": "HC6 Combo Cơm chiên Xanh",
+    "products_image": "//product.hstatic.net/200000892317/product/hc6_9e67735e79734d3bb169e06ff3c887ad_large.jpg",
+    "products_price": 99000,
+    "products_type": "Combo",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 100,
+    "products_name": "HC7 Combo Gia Đình",
+    "products_image": "//product.hstatic.net/200000892317/product/hc7_fe1b2495805b48cda1fe4498c59c55d9_large.jpg",
+    "products_price": 259000,
+    "products_type": "Combo",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 102,
+    "products_name": "test1",
+    "products_image": "http://localhost:8080/public/img/1732786597341_Screenshot_2024-11-28_153916.png",
+    "products_price": 30000,
+    "products_type": "Mì",
+    "quantitySold": 100
+  },
+  {
+    "products_id": 105,
+    "products_name": "bdcd",
+    "products_image": "/uploads/362fa7ac8047e6960fc166fce941fc31",
+    "products_price": 543212,
+    "products_type": "Cơm",
+    "quantitySold": 0
+  }
+]

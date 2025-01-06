@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "account_number": "123456789",
+    "account_name": "Phan Ngọc Tài",
+    "bank_name": "Vietcombank",
+    "content": "Thanh toán hóa đơn #001",
+    "created_at": "2024-11-20T20:35:55.000Z",
+    "updated_at": "2024-11-29T10:13:37.000Z",
+    "money": 7754000
+  },
+  {
+    "id": 2,
+    "account_number": "987654321",
+    "account_name": "Nguyễn Văn An",
+    "bank_name": "Vietinbank",
+    "content": "Thanh toán hóa đơn #002",
+    "created_at": "2024-11-20T20:35:55.000Z",
+    "updated_at": "2024-11-20T22:52:07.000Z",
+    "money": 10000000
+  },
+  {
+    "id": 3,
+    "account_number": "112233445",
+    "account_name": "Trần Thị Bình",
+    "bank_name": "Techcombank",
+    "content": "Thanh toán hóa đơn #003",
+    "created_at": "2024-11-20T20:35:55.000Z",
+    "updated_at": "2024-11-20T22:52:07.000Z",
+    "money": 10000000
+  },
+  {
+    "id": 4,
+    "account_number": "556677889",
+    "account_name": "Lê Minh Cường",
+    "bank_name": "BIDV",
+    "content": "Thanh toán hóa đơn #004",
+    "created_at": "2024-11-20T20:35:55.000Z",
+    "updated_at": "2024-11-20T22:52:07.000Z",
+    "money": 10000000
+  },
+  {
+    "id": 5,
+    "account_number": "998877665",
+    "account_name": "Phạm Thị Duyên",
+    "bank_name": "Agribank",
+    "content": "Thanh toán hóa đơn #005",
+    "created_at": "2024-11-20T20:35:55.000Z",
+    "updated_at": "2024-11-20T22:52:07.000Z",
+    "money": 10000000
+  },
+  {
+    "id": 6,
+    "account_number": "101010101",
+    "account_name": "Nguyễn Hoàng Quý",
+    "bank_name": "MB Bank",
+    "content": "Thanh toán hóa đơn #006",
+    "created_at": "2024-11-20T20:35:55.000Z",
+    "updated_at": "2024-11-20T22:52:07.000Z",
+    "money": 10000000
+  }
+]

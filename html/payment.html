@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh Toán</title>
+    <link rel="stylesheet" href="./../Header/header.css">
+    <link rel="stylesheet" href="./../Footer/footer.css">
+    <link rel="stylesheet" href="../css/payment.css">
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <div class="payment-form">
+        <h2>Thanh toán</h2>
+        <form id="paymentForm">
+            <div class="form-group">
+                <label for="account_number">Số tài khoản:</label>
+                <input type="text" id="account_number" name="account_number" required />
+            </div>
+            <div class="form-group">
+                <label for="account_name">Tên tài khoản:</label>
+                <input type="text" id="account_name" name="account_name" required />
+            </div>
+            <div class="form-group">
+                <label for="bank_name">Tên ngân hàng:</label>
+                <input type="text" id="bank_name" name="bank_name" required />
+            </div>
+            <div class="form-group">
+                <label for="content">Nội dung thanh toán:</label>
+                <input type="text" id="content" name="content" required />
+            </div>
+            <div class="form-group">
+                <label for="amount">Số tiền:</label>
+                <input type="number" id="amount" name="amount" required />
+            </div>
+            <button type="submit">Xác nhận thanh toán</button>
+        </form>
+
+        <div id="message"></div>
+    </div>
+    <div id="footer"></div>
+
+    <script src="../script.js"></script>
+    <script src="../js/payment.js"></script>
+    <script src="../authGuard.js"></script>
+
+</body>
+
+</html>

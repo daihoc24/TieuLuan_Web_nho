@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cập nhật Sản Phẩm</title>
+  <link rel="stylesheet" href="../css/updateProduct.css">
+</head>
+<body>
+  <div class="container">
+    <h3>Cập nhật Sản Phẩm</h3>
+    <form id="updateProductForm">
+      <div class="form-group">
+        <label for="productName">Tên sản phẩm</label>
+        <input type="text" id="productName" name="productName" />
+        <span id="nameError"></span>
+      </div>
+      <div class="form-group">
+        <label for="productPrice">Giá tiền</label>
+        <input type="number" id="productPrice" name="productPrice" min="1" max="1000000" />
+        <span id="priceError"></span>
+      </div>
+      <div class="form-group">
+        <label for="productType">Loại sản phẩm</label>
+        <select id="productType" name="productType">
+          <option value="">Chọn loại sản phẩm</option>
+          <option value="Combo">Combo</option>
+          <option value="Cơm">Cơm</option>
+          <option value="Mì">Mì</option>
+          <option value="Miến">Miến</option>
+          <option value="Phá lấu">Phá lấu</option>
+          <option value="Nước giải khát">Nước giải khát</option>
+          <option value="Các món khác">Các món khác</option>
+        </select>
+        <span id="typeError"></span>
+      </div>
+      <div class="form-group">
+        <button type="button" id="updateButton" class="btn">Cập nhật sản phẩm</button>
+    </div>
+    </form>
+  </div>
+  <script src="../js/updateProduct.js"></script>
+  <script src="../adminGuard.js"></script>
+
+</body>
+</html>

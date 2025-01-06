@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giỏ hàng</title>
+  <link rel="stylesheet" href="./../Header/header.css">
+  <link rel="stylesheet" href="./../Footer/footer.css">
+  <link rel="stylesheet" href="../css/cart.css">
+</head>
+
+<body>
+  <div id="header"></div>
+
+  <div class="cart-container">
+    <h1>Giỏ Hàng</h1>
+
+    <!-- Danh sách sản phẩm trong giỏ -->
+    <div id="cart-items" class="cart-items"></div>
+
+    <!-- Tổng tiền -->
+    <div class="cart-summary">
+      <p>Tổng cộng: <span id="total-price">0</span></p>
+      <button id="checkout-btn" class="checkout-btn">Xác nhận đơn hàng</button>
+    </div>
+  </div>
+
+  <!-- Modal xác nhận đơn hàng -->
+  <div id="order-modal" class="modal hidden">
+    <div class="modal-content">
+      <h2>Xác nhận đơn hàng</h2>
+      <p>Phí ship: <span id="shipping-fee">15000</span> VND</p>
+      <p>Tổng tiền: <span id="total-amount">0</span></p>
+      <label for="address">Địa chỉ giao hàng:</label>
+      <input type="text" id="address" placeholder="Nhập địa chỉ của bạn">
+      <div class="modal-buttons">
+        <button id="confirm-btn" class="confirm-btn">Xác nhận</button>
+        <button id="cancel-btn" class="cancel-btn">Hủy</button>
+      </div>
+    </div>
+  </div>
+  <div id="footer"></div>
+
+  <script src="../js/cart.js"></script>
+  <script src="../script.js"></script>
+  <script src="../authGuard.js"></script>
+
+</body>
+
+</html>

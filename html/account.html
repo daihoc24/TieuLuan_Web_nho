@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account Page</title>
+  <link rel="stylesheet" href="./../Header/header.css">
+  <link rel="stylesheet" href="./../Footer/footer.css">
+  <link rel="stylesheet" href="../css/account.css">
+</head>
+
+<body>
+  <div id="header"></div>
+
+  <div class="account-container">
+    <h1>Thông tin tài khoản</h1>
+    <div class="account-info">
+      <p><strong>Họ và tên:</strong> <span id="fullname"></span></p>
+      <p><strong>Email:</strong> <span id="email"></span></p>
+      <p><strong>Địa chỉ:</strong> <span id="address"></span></p>
+      <p><strong>Số điện thoại:</strong> <span id="phone"></span></p>
+      <p><strong>Ngày sinh:</strong> <span id="birthdate"></span></p>
+    </div>
+    <button id="changeInfoBtn">Thay đổi thông tin</button>
+    <button id="changePasswordBtn">Đổi mật khẩu</button> <!-- Nút đổi mật khẩu -->
+
+    <!-- Modal -->
+    <div id="changeInfoModal" class="modal">
+      <div class="modal-content">
+        <span id="closeModal" class="close">&times;</span>
+        <h2>Chỉnh sửa thông tin</h2>
+
+        <form id="changeInfoForm">
+          <label for="email">Email:</label>
+          <input type="email" id="modalEmail" name="email" required><br>
+
+          <label for="fullname">Họ và tên:</label>
+          <input type="text" id="modalFullname" name="fullname" required><br>
+
+          <label for="address">Địa chỉ:</label>
+          <input type="text" id="modalAddress" name="address" required><br>
+
+          <label for="phone">Số điện thoại:</label>
+          <input type="tel" id="modalPhone" name="phone" required><br>
+
+          <label for="birthday">Ngày sinh:</label>
+          <input type="date" id="modalBirthday" name="birthday" required><br>
+
+          <button type="submit">Cập nhật</button>
+        </form>
+      </div>
+    </div>
+    <div id="changePasswordModal" class="modal">
+      <div class="modal-content">
+        <span id="closePasswordModal" class="close">&times;</span>
+        <h2>Đổi mật khẩu</h2>
+        <form id="changePasswordForm">
+          <label for="currentPassword">Mật khẩu cũ:</label>
+          <input type="password" id="currentPassword" name="currentPassword" required><br>
+
+          <label for="newPassword">Mật khẩu mới:</label>
+          <input type="password" id="newPassword" name="newPassword" required><br>
+
+          <label for="confirmPassword">Xác nhận mật khẩu mới:</label>
+          <input type="password" id="confirmPassword" name="confirmPassword" required><br>
+
+          <button type="submit">Cập nhật mật khẩu</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div id="footer"></div>
+
+  <script src="../js/account.js"></script>
+  <script src="../script.js"></script>
+  <script src="../authGuard.js"></script>
+
+</body>
+
+</html>
